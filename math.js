@@ -62,13 +62,12 @@ for (let i = 1; i <= 50; i++) {
 }
 
 // 06 Simulate login attempts using do...while loop
-// (Works only in browsers, not Node.js terminal)
 console.log("\nLogin Simulation:");
 let correctPassword = "1234";
 let userInput;
 let attempts = 0;
 do {
-  userInput = prompt("Enter password:"); // prompt works in browser
+  userInput = prompt("Enter password:"); 
   attempts++;
 } while (userInput !== correctPassword);
 console.log("Login successful in " + attempts + " attempts!");
@@ -79,7 +78,7 @@ for (let i = 1; i <= 10; i++) {
   for (let j = 1; j <= 10; j++) {
     console.log(`${i} x ${j} = ${i * j}`);
   }
-  console.log("--------------------"); // Separator for better readability
+  console.log("--------------------"); 
 }
 
 
